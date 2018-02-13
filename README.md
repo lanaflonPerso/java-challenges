@@ -11,7 +11,15 @@ haphazard.
 
 
 ## How to run tests locally?
+### with Eclipse
+run the selected source.
 
+### with Maven
+```shell
+mvn test
+```
+
+### with gradle
 ```shell
 # Install Gradle
 $ sudo apt-get install gradle
@@ -19,6 +27,11 @@ $ sudo apt-get install gradle
 # Go inside your project folder and:
 $ gradle test
 ```
+
+### two ways
+In this challenge, you have two ways for write your TDD
+* clone all repo and make a Maven project with Junit4 (or Junit5)
+* copy the class and his test in this project
 
 http://www.commitstrip.com/fr/2016/02/22/when-the-functional-tests-are-all-red/
 
